@@ -251,7 +251,7 @@ Next, using the ASP.NET Core code from earlier, replace the console exporter
 with an OTLP exporter:
 
 ```csharp
-using System.Diagnostics;
+using OpenTelemetry.Exporter;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 
